@@ -1,2 +1,7 @@
-nexus 5
-iphone max pro 13
+Simulators
+-Nexus 5 4,9"
+-Iphone max pro 13 6"
+
+1- Import "Dimensions" from react native (Is an object)
+2- Create an Dimensions object
+3- Use the Ternary Conditions in StyleSheet object
