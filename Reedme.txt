@@ -23,3 +23,12 @@ Keyboard problem with spaces
 
 - For Landscape modes use this hook :) useWindowDimensions(Hook)
 Dynamic when screen mode changes
+
+Platform Files (will automatic choose the adequate file. Can be ios / android)
+
+- Create a copy of a components
+- Change name Title.android.js .... Title.ios.js ....
+- Change imports to Title not Title.ios
+- In Title.android.js change to borderWidth: 2 
+- In Title.android.ios change to borderWidth: 0
+- Can use same process for others components like example Colors (Different color for different platforms)

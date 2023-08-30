@@ -14,7 +14,8 @@ const styles = StyleSheet.create({
     color: 'white',
     textAlign: 'center',
     //borderWidth: Platform.OS === 'android' ? 2 : 0, // Using Platform :) 1 way Ternary
-    borderWidth: Platform.select({ios:0,android:2}), // Using Platform :) 2 way
+    //borderWidth: Platform.select({ios:0,android:2}), // Using Platform :) 2 way
+    borderWidth: 0,
     borderColor: 'white',
     padding: 12,
     maxWidth: '80%',// up to 80% of 300PX , lite screens takes less space :) refers to the parent container
