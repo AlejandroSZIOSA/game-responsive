@@ -1,6 +1,8 @@
 Simulators
 -Nexus 5 4,9"
--Iphone max pro 13 6"
+-Iphone 13 pro max 6"
+
+Dimensions API
 
 Basics
 1- Import "Dimensions" from react native (Is an object)
@@ -18,3 +20,6 @@ Keyboard problem with spaces
 4- <KeyboardAvoidingView style={styles.screen} behavior="position">
 5- Import ScrollView
 6-Encapsule JSX root content with <ScrollView style={styles.screen}>
+
+- For Landscape modes use this hook :) useWindowDimensions(Hook)
+Dynamic when screen mode changes
