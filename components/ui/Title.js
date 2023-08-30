@@ -16,5 +16,7 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderColor: 'white',
     padding: 12,
+    maxWidth: '80%',// up to 80% of 300PX , lite screens takes less space :) refers to the parent container
+    width: 300, //defaults pixels 
   },
 });
