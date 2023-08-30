@@ -5,6 +5,16 @@ Simulators
 Basics
 1- Import "Dimensions" from react native (Is an object)
 2- Create an Dimensions object
-3- Use the Ternary Conditions in StyleSheet object
+3- Use the Ternary Conditions in StyleSheet objects
 
 Image 
+- Use the Ternary Conditions in StyleSheet objects
+
+Keyboard problem with spaces
+
+1- Import KeyboardAvoidView from react
+2- Encapsule JSX root content
+3- Create "screen" StyleSheet
+4- <KeyboardAvoidingView style={styles.screen} behavior="position">
+5- Import ScrollView
+6-Encapsule JSX root content with <ScrollView style={styles.screen}>
