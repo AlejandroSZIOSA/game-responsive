@@ -1,4 +1,4 @@
-import { Text, StyleSheet } from 'react-native';
+import { Text, StyleSheet,Platform } from 'react-native';
 
 function Title({ children }) {
   return <Text style={styles.title}>{children}</Text>;
@@ -13,7 +13,8 @@ const styles = StyleSheet.create({
     // fontWeight: 'bold',
     color: 'white',
     textAlign: 'center',
-    borderWidth: 2,
+    //borderWidth: Platform.OS === 'android' ? 2 : 0, // Using Platform :) 1 way Ternary
+    borderWidth: Platform.select({ios:0,android:2}), // Using Platform :) 2 way
     borderColor: 'white',
     padding: 12,
     maxWidth: '80%',// up to 80% of 300PX , lite screens takes less space :) refers to the parent container
