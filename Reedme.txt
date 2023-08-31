@@ -32,3 +32,7 @@ Platform Files (will automatic choose the adequate file. Can be ios / android)
 - In Title.android.js change to borderWidth: 2 
 - In Title.android.ios change to borderWidth: 0
 - Can use same process for others components like example Colors (Different color for different platforms)
+
+StatusBar 
+
+Working with fragments
