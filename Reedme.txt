@@ -35,4 +35,4 @@ Platform Files (will automatic choose the adequate file. Can be ios / android)
 
 StatusBar 
 
-Working with fragments
+Working with fragments <></>
