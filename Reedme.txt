@@ -35,4 +35,9 @@ Platform Files (will automatic choose the adequate file. Can be ios / android)
 
 StatusBar 
 
+In App.js
+
+1- import { StatusBar } from 'expo-status-bar';
+2- Use It in the JSX content app
+
 Working with fragments <></>
